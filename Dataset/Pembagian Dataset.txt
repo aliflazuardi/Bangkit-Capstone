@@ -1,0 +1,9 @@
+covid-sentiment.csv -> ada 52960 data
+
+Setelah dibagi dua berarti 
+
+covid-sentiment Nadhif.csv
+Nadhif -> 0-26480
+
+covid-sentiment Alif.csv
+Alif ->26480 -> 52960
