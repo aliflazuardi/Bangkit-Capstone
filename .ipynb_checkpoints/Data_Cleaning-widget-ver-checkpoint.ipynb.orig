@@ -80,7 +80,8 @@
     "# https://www.kaggle.com/dionisiusdh/covid19-indonesian-twitter-sentiment#\n",
     "# the last argument from os.path.join() can be changed depends on what dataset to work on\n",
     "dataset_path = os.path.join(my_curr_path, \"Dataset\", \"indonesian_vaccination_tweets.csv\")\n",
-    "df_origin = pd.read_csv(dataset_path)"
+    "df_origin = pd.read_csv(dataset_path)\n",
+    "df_origin['tweet'] = df_origin['text']"
    ]
   },
   {
@@ -107,10 +108,31 @@
    },
    "outputs": [
     {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "<<<<<<< local <removed>\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "=======\n"
+     ]
+    },
+    {
      "name": "stdout",
      "output_type": "stream",
      "text": [
       "my progress 26681 out of 52959 \n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      ">>>>>>> remote <modified: >\n"
      ]
     }
    ],
