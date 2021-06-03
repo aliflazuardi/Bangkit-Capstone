@@ -17,3 +17,7 @@ If some of the tweets are considered to be non related to covid-19 vaccination, 
 3. Pre-processing text to numbers
 4. Model building and training
 5. Model validation and analysis
+
+Important Files:
+1. Data_Cleaning.ipynb for dataset cleaning and labeling
+2. Baseline_model.ipynb for training the baseline model
